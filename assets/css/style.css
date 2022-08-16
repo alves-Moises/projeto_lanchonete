@@ -1,0 +1,86 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(218, 207, 207) ;
+}
+
+header{
+    background-color: #fff ;
+    position: fixed ;
+    padding:30px 220px;
+    width: 100% ;
+    display:flex;
+    align-items: center;
+    height: 60px;
+    z-index: 1;
+    box-shadow: #0000 ;
+    justify-content: space-around;
+}
+
+header .logo{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+}
+
+.logo img {
+    height:100% ;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+section{
+    width:100%;
+    /* max-width:700px; */
+    background-color: #c1c1c1;
+    max-height: 1000px;
+}
+
+.aberto{
+    color: rgb(0, 76, 0);
+    font-weight:700;
+}
+.produtos{
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+.card-body{
+    /* width: 100px; */
+}
+
+.info{
+    text-decoration: dashed;
+    text-decoration: underline;
+    padding:2px;
+    color: darkgray;
+    background: none;
+}
+
+.lista-itens{
+    flex-direction: row;
+    display:flex;
+    color: rgb(166, 166, 166);
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lista-itens li:hover{
+    cursor:pointer;
+    color: rgb(113 113 113);
+}
+
+ul,li{
+    list-style: none;
+}
